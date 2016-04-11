@@ -13,9 +13,9 @@
             "email": "fzed51@users.noreply.github.com"
         }
     ],
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "fzed51\\Vue\\Slim\\": "./src/"
+            "fzed51\\Vue\\Slim\\": "./src"
         }
     }
 }
