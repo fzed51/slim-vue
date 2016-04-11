@@ -37,7 +37,7 @@ class SlimVue
      */
     public function render(ResponseInterface $response, $template, array $data = [])
     {
-        $output = $this->vue->templateToString($template, $data);
+        $output = $this->vue->render($template, $data);
         $response->getBody()->write($output);
 
         return $response;
