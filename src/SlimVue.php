@@ -43,4 +43,54 @@ class SlimVue
         return $response;
     }
 
+    /**
+     * @return array
+     */
+    public function getAttributes()
+    {
+        return $this->vue->getAttributes();
+    }
+
+    /**
+     * @param array $attributes
+     */
+    public function setAttributes(array $attributes)
+    {
+        $this->vue->setAttributes($attributes);
+    }
+
+    /**
+     * @param string $key
+     * @param mixed $value
+     */
+    public function addAttribute($key, $value)
+    {
+        $this->vue->addAttribute($key, $value);
+    }
+
+    /**
+     * @param $key
+     * @return mixed
+     */
+    public function getAttribute($key)
+    {
+        return $this->vue->getAttribute($key);
+    }
+
+    /**
+     * @return string
+     */
+    public function getTemplatePath()
+    {
+        return $this->vue->getTemplatePath();
+    }
+
+    /**
+     * @param string $templatePath
+     */
+    public function setTemplatePath($templatePath)
+    {
+        $this->vue->setTemplatePath($templatePath);
+    }
+
 }
