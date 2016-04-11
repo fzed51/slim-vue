@@ -1,0 +1,21 @@
+{
+    "name": "fzed51/slim-vue",
+    "description": "implémentation du package fzed51/vue pour slim framework 3",
+    "require": {
+        "php": ">=5.6",
+        "psr/http-message": "^1.0",
+        "fzed51/vue": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fzed51",
+            "email": "fzed51@users.noreply.github.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "fzed51\\Vue\\Slim\\": "./src/"
+        }
+    }
+}
