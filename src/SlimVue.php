@@ -8,12 +8,15 @@
 
 namespace fzed51\Vue\Slim;
 
+use fzed51\Vue\Vue;
+use Psr\Http\Message\ResponseInterface;
+
 /**
  * Description of SlimVue
  *
  * @author fabien.sanchez
  */
-class SlimVue extends fzed51\Vue\Vue
+class SlimVue extends Vue
 {
 
     public function render(ResponseInterface $response, $template, array $data = [])
